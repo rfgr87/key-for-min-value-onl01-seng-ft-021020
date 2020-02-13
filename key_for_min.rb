@@ -6,5 +6,5 @@ def key_for_min_value(name_hash)
     return nil
   else
     name_hash = name_hash.sort {|k,v| v}
-    return name_hash.value[0]
+    return name_hash.values[0]
 end
