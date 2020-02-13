@@ -16,6 +16,14 @@ def key_for_min_value(name_hash)
       i += 1
     else
       i += 1
+    end
+  end
+  name_hash.each do |key, value|
+    if value == a[0]
+      return key
+    end
+  end
+end
       
       
       
